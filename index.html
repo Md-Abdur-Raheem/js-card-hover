@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Card mouse hover</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li onmouseenter={toggleCard(1)}>Country-1</li>
+            <li onmouseenter={toggleCard(2)}>Country-2</li>
+            <li onmouseenter={toggleCard(3)}>Country-3</li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="card-container">
+            
+            <div id="1" class="hidden box">
+               
+                <div class="card">
+                    <img src="./images/flag-1.png" alt="">
+                    <h3>Country name</h3>
+                    <h4>Continent</h4>
+                    <h5>Population</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+                </div>
+                <div class="card">
+                    <img src="./images/flag-2.png" alt="">
+                    <h3>Country name</h3>
+                    <h4>Continent</h4>
+                    <h5>Population</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+                </div>
+                <div class="card">
+                    <img src="./images/flag-3.png" alt="">
+                    <h3>Country name</h3>
+                    <h4>Continent</h4>
+                    <h5>Population</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+                </div>
+            </div>
+
+
+
+           <div id="2" class="hidden box">
+            <div class="card">
+                <img src="./images/flag-4.png" alt="">
+                <h3>Country name</h3>
+                <h4>Continent</h4>
+                <h5>Population</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+            </div>
+            <div class="card ">
+                <img src="./images/flag-5.png" alt="">
+                <h3>Country name</h3>
+                <h4>Continent</h4>
+                <h5>Population</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+            </div>
+            <div class="card">
+                <img src="./images/flag-6.png" alt="">
+                <h3>Country name</h3>
+                <h4>Continent</h4>
+                <h5>Population</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+            </div>
+           </div>
+
+
+           <div id="3" class="hidden">
+            <div class="card ">
+                <img src="./images/flag-7.png" alt="">
+                <h3>Country name</h3>
+                <h4>Continent</h4>
+                <h5>Population</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+            </div>
+            <div class="card ">
+                <img src="./images/flag-8.png" alt="">
+                <h3>Country name</h3>
+                <h4>Continent</h4>
+                <h5>Population</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+            </div>
+            <div class="card ">
+                <img src="./images/flag-9.png" alt="">
+                <h3>Country name</h3>
+                <h4>Continent</h4>
+                <h5>Population</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse, aliquam dolore quam nam nemo accusantium enim suscipit incidunt vel. Placeat maiores ut architecto repellendus exercitationem cum eligendi aperiam similique?</p>
+            </div>
+           </div>
+           
+        </section>
+    </main>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
