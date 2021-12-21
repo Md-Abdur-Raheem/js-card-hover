@@ -10,6 +10,7 @@
 <body>
     <nav>
         <ul>
+            <li onmouseenter={showHome()}>Home</li>
             <li onmouseenter={toggleCard(1)}>Country-1</li>
             <li onmouseenter={toggleCard(2)}>Country-2</li>
             <li onmouseenter={toggleCard(3)}>Country-3</li>
@@ -17,10 +18,19 @@
     </nav>
     
     <main>
+        <section class="home">
+            <img src="./images/flag-1.png" alt="">
+            <img src="./images/flag-2.png" alt="">
+            <img src="./images/flag-3.png" alt="">
+            <img src="./images/flag-4.png" alt="">
+            <img src="./images/flag-5.png" alt="">
+            <img src="./images/flag-6.png" alt="">
+            <img src="./images/flag-7.png" alt="">
+            <img src="./images/flag-8.png" alt="">
+            <img src="./images/flag-9.png" alt="">
+        </section>
         <section class="card-container">
-            
             <div id="1" class="hidden box">
-               
                 <div class="card">
                     <img src="./images/flag-1.png" alt="">
                     <h3>Country name</h3>

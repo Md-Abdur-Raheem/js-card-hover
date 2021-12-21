@@ -16,6 +16,12 @@ body > nav > ul > li{
     padding: 5px 7px;
     cursor: pointer;
 }
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 .card-container{
     display: flex;
 }
@@ -49,6 +55,9 @@ body > nav > ul > li{
 
     /* opacity: 1;
     transition: opacity 1s linear 0s; */
+}
+.show-home{
+    display: grid;
 }
 
 
